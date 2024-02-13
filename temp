@@ -1,0 +1,21 @@
+with open("./Pages/TnC.py") as f:
+    code = f.read()
+    exec(code)
+
+.st-emotion-cache-1bjvju3{
+                font-size: 50px;
+            }
+ 
+.st-emotion-cache-1bjvju3{ user role
+                border: 2px solid #60B4FF;
+            }
+
+a.st-emotion-cache-1bjvju3.e11k5jya1{
+                border: 2px solid #60B4FF;
+                height: 80px;
+                width: 300px;
+                justify-content: center;
+            }
+
+st.page_link("./Pages/TnC.py", label="Speaker", help="Click to proceed as a Speaker")
+st.page_link("./Pages/TnC.py", label="Performer", help="Click to proceed as a Performer")
